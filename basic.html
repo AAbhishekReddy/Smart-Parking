@@ -2,6 +2,9 @@
     <head>
         <title>Baby Steps</title>
 
+        <link rel="stylesheet" href="photon.css">
+        <link rel="stylesheet" href="uikit.css">
+
         <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
         <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
         
@@ -42,6 +45,50 @@
     </head>
 
     <body>
-        This is a Test Window.
+        <div class="window">
+            <header class="toolbar toolbar-header">
+              <h1 class="title">INTI PARK</h1>
+            </header>
+            <div>
+                <img src="park.jpg">
+            </div>
+            <div class="window-content">
+              <div class="pane-group">
+                <div class="pane">
+                    <div class="pane-group">
+                        <div class="pane">
+                            <div class="tab-item active">
+                                <span class="icon icon-cancel icon-close-tab"></span>
+                                Sensor 1
+                            </div>
+                            <h1 id = "sensor1" style="text-align: center">PARKING SLOT 2</h1>
+                            <br>
+                            <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+                                    <h3 class="uk-card-title">Slot Details</h3>
+                                    <label>Time:</label>
+                                    
+                            </div>
+                        </div>
+                        <div class="pane">
+                                <div class="tab-item active">
+                                    <span class="icon icon-cancel icon-close-tab"></span>
+                                    Sensor 2
+                                </div>
+                                <h1 id = "sensor2" style="text-align: center">PARKING SLOT 2</h1>
+                                <br>
+                                <div class="uk-card uk-card-secondary uk-card-hover uk-card-body uk-light">
+                                    <h3 class="uk-card-title">Slot Details</h3>
+                                    <label>Time:</label>
+                                    
+                                </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <footer class="toolbar toolbar-footer">
+              <h1 class="title">Developed by GHOST</h1>
+            </footer>
+          </div>
     </body>
 </html>
